@@ -1,3 +1,13 @@
+*{
+	box-sizing: border-box;
+}
+html,body{
+	
+	padding: 0px;
+	width: 100%;
+
+}
+/*menu open*/
 .navbar
 {
 	position: fixed;
@@ -101,6 +111,7 @@ color: white;
 	height: 30px; 
 	position: absolute;
 }
+/*close menu*/
 #butto
 {
 	position: absolute; 
@@ -108,6 +119,7 @@ color: white;
 	height: 37px; 
 	margin-left: 210px; 
 	background-color: rgb(255,0,0); opacity: 0.6;
+	border: 0px;
 }
 #design1
 {
@@ -202,7 +214,7 @@ b
 		background-color: lightblue;
 		position: absolute;
 		top: 180%;
-		width: 96.3%;
+		width: 1341px;
 		height: 70%;
 	}
 
@@ -288,7 +300,7 @@ b
 
 							#message1
 							{
-								margin-top: 1%;
+								margin-top: 1px;
 								margin-left: 6%;
 							}
 							#submit
@@ -298,6 +310,7 @@ b
 								background-color: lightblue;
 								width: 20%;
 								height: 10%;
+								border: none;
 								
 							}
 
@@ -306,6 +319,7 @@ b
 								position: absolute;
 								border-radius: 50%;
 								margin-left: 55%;
+								margin-top: -15px;
 								
 							}
 
@@ -314,6 +328,7 @@ b
 								position: absolute;
 								border-radius: 50%;
 								margin-left: 57%;
+								margin-top: -15px;
 								
 							}
 
@@ -322,6 +337,7 @@ b
 								position: absolute;
 								border-radius: 50%;
 								margin-left: 60%;
+								margin-top: -15px;
 								
 							}
 
@@ -331,6 +347,7 @@ b
 								position: absolute;
 								border-radius: 50%;
 								margin-left: 65%;
+								margin-top: -25px;
 								
 							}
 
@@ -343,7 +360,7 @@ b
 	background-color: black;
 	width: 95%;
 	top: 310%;
-	height: 5%;
+	height: auto;
 	color: white;
 	font-size: 20px;
 	padding-left: 50px;
@@ -355,4 +372,1054 @@ b
 {
  width: 200px;
  height: 200px;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+/*my services*/
+.Services
+{
+	position: absolute;
+	width: 100%;
+	top: 90%;
+	margin-left: 5%;
+	height: 85%;
+
+}
+b
+{
+	margin-left: 50px;
+	color: green;
+	font-family: Bernard MT Condensed;
+}
+
+	#services1
+	{
+		position: absolute;
+		width: 50%;
+		height: 40%;
+		margin-left: 0px;
+		color:black;
+		top: 10px;
+		font-size: 50px;
+	}
+
+		#services2
+		{
+			position: absolute;
+			width: 45%;
+		height: 40%;
+		margin-left: 55%;
+		color: rgb(green blue black);
+		top: 30%;
+		font-size: 45px;
+		}
+
+			#services3
+			{
+				position: absolute;
+				width: 30%;
+		height: 40%;
+		left: 400px;
+		color: rgb(green blue black);
+		top: 30%;
+		font-size: 40px;
+			}
+
+
+							#services4
+								{
+									position: absolute;
+									width: 30%;
+									height: 40%;
+									left: 50%;
+									color:black;
+									top: 100%;
+									font-size: 45px;
+								}
+
+									#services5
+									{
+										position: absolute;
+										width: 30%;
+									height: 40%;
+									left: 75%;
+									color: rgb(green blue black);
+									top: 125%;
+									font-size: 40px;
+									}
+
+										#services6
+										{
+											
+											position: absolute;
+										width: 30%;
+									height: 40%;
+									margin-left: 1px;
+									color: rgb(green blue black);
+									top: 120%;
+									line-height: 1;
+									font-size: 45px;
+										}
+
+
+
+/*about me*/
+	#aboutme
+	{
+		position: absolute;
+		background-color: lightblue;
+		
+		top: 250%;
+		width: 174%;
+		height: 70%;
+		margin-left: 1px;
+
+	}
+
+			.about1
+			{
+				background-color: white;
+				border: 2px;
+				width: 80%;
+				height: 70%;
+				margin-top: 5%;
+				font-size: 47px;
+				margin-left: 10%;
+				box-shadow: 2px 2px 2px 2px gray;
+				padding: 5px 20px 0px 20px;
+
+			}
+			.about1 h3
+			{
+				text-align: center;
+			}
+
+					/*contact me*/
+					#contactme
+					{
+						position: absolute;
+						top: 320%;
+						width: 60%;
+						height: 50%;
+						width: 100%;
+						margin-left: 20%;
+					}
+					#inputname
+					{
+						width: 70%;
+						height: 17%;
+						margin-left: -110px;
+						border: 2;
+						font-size: 15px;
+						margin-top: 50px;
+						border-radius: 10px 10px 10px 10px;
+						font-size: 20px;
+					}
+					#inputemail
+					{
+						position: absolute;
+						width: 70%;
+						height: 17%;
+						margin-left: 20px;
+						border: 2;
+						font-size: 15px;
+						margin-top: 51px;
+						font-size: 20px;
+					border-radius: 10px 10px 10px 10px;
+					}
+							#message
+								{
+									position: absolute;
+									width: 150%;
+									height: 40%;
+									margin-left: -100px;
+									border: 2;
+									font-size: 20px;
+									margin-top: 10px;
+								border-radius: 10px 10px 10px 10px;
+
+								}
+
+
+
+					#name1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: -70px;
+						font-size: 17px;
+					}
+
+					#email1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: 50%;
+						font-size: 17px;
+					}
+
+							#message1
+							{
+								margin-top: 50px;
+								margin-left: 6%;
+								font-size: 45px;
+							}
+							#submit
+							{
+								margin-top: 18%;
+								margin-left: 40%;
+								background-color: lightblue;
+								width: 20%;
+								height: 10%;
+								border: none;
+								
+							}
+
+							#facebook
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 1px;
+								margin-top: -15px;
+								
+							}
+
+									#instergram
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 30px;
+								margin-top: -15px;
+								
+							}
+
+								#whatsapp
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 50px;
+								margin-top: -15px;
+								
+							}
+
+
+								#youtube
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 70px;
+								margin-top: -25px;
+								
+							}
+
+
+
+/*foot*/
+.foot
+{
+	position: absolute;
+	background-color: black;
+	width: 95%;
+	top: 367%;
+	height: auto;
+	color: white;
+	font-size: 15px;
+	padding-left: 1px;
+	padding-top: 15px;
+}
+
+
+#disegn1
+{
+ width: 200px;
+ height: 200px;
+}
+
+}
+
+
+
+
+}
+
+
+
+
+/*pixel 832px*/
+@media screen and (max-width: 823px)
+{
+/*my services*/
+.Services
+{
+	position: absolute;
+	width: 90%;
+	top: 150%;
+	margin-left: 5%;
+	height: 70%;
+}
+b
+{
+	margin-left: 50px;
+	color: green;
+	font-family: Bernard MT Condensed;
+}
+
+	#services1
+	{
+		
+		width: 50%;
+		height: 40%;
+		margin-left: 0px;
+		color:black;
+		margin-top: 7px;
+		font-size: 15px;
+	}
+
+		#services2
+		{
+			
+			width: 45%;
+		height: 40%;
+		margin-left: 55%;
+		color: rgb(green blue black);
+		margin-top: -230px;
+		font-size: 15px;
+		}
+
+			#services3
+			{
+				
+				width: 30%;
+		height: 40%;
+		margin-left: 1px;
+		color: rgb(green blue black);
+		margin-top: -30px;
+			}
+
+
+							#services4
+								{
+									position: absolute;
+									width: 30%;
+									height: 40%;
+									left: 50%;
+									color:black;
+									top: 87%;
+								}
+
+									#services5
+									{
+										position: absolute;
+										width: 30%;
+									height: 40%;
+									left: 20%;
+									color: rgb(green blue black);
+									top: 70%;
+									}
+
+										#services6
+										{
+											
+											position: absolute;
+										width: 30%;
+									height: 40%;
+									margin-left: 1px;
+									color: rgb(green blue black);
+									top: 120%;
+									line-height: 1;
+										}
+
+
+
+/*about me*/
+	#aboutme
+	{
+		position: absolute;
+		background-color: lightblue;
+		
+		top: 245%;
+		width: 99%;
+		height: 70%;
+		margin-left: 1px;
+	}
+
+			.about1
+			{
+				background-color: white;
+				border: 2px;
+				width: 60%;
+				height: 70%;
+				margin-top: 5%;
+				font-size: 15px;
+				margin-left: 17%;
+				box-shadow: 2px 2px 2px 2px gray;
+				padding: 5px 20px 0px 20px;
+
+			}
+			.about1 h3
+			{
+				text-align: center;
+			}
+
+					/*contact me*/
+					#contactme
+					{
+						position: absolute;
+						top: 320%;
+						width: 60%;
+						height: 50%;
+						
+						margin-left: 20%;
+					}
+					#inputname
+					{
+						width: 70%;
+						height: 13%;
+						margin-left: -30%;
+						border: 2;
+						font-size: 1px;
+						margin-top: 50px;
+						border-radius: 10px 10px 10px 10px;
+						font-size: 20px;
+					}
+					#inputemail
+					{
+						position: absolute;
+						width: 70%;
+						height: 13%;
+						margin-left: 20px;
+						border: 2;
+						font-size: 1px;
+						margin-top: 51px;
+						font-size: 20px;
+					border-radius: 10px 10px 10px 10px;
+					}
+							#message
+								{
+									position: absolute;
+									width: 100%;
+									height: 40%;
+									margin-left: -35%;
+									border: 2;
+									font-size: 20px;
+									margin-top: 10px;
+								border-radius: 10px 10px 10px 10px;
+
+								}
+
+
+
+					#name1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: -70px;
+					}
+
+					#email1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: 50%;
+					}
+
+							#message1
+							{
+								margin-top: 50px;
+								margin-left: 6%;
+							}
+							#submit
+							{
+								margin-top: 18%;
+								margin-left: 40%;
+								background-color: lightblue;
+								width: 20%;
+								height: 10%;
+								border: none;
+								
+							}
+
+							#facebook
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 1px;
+								margin-top: -15px;
+								
+							}
+
+									#instergram
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 30px;
+								margin-top: -15px;
+								
+							}
+
+								#whatsapp
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 50px;
+								margin-top: -15px;
+								
+							}
+
+
+								#youtube
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 70px;
+								margin-top: -25px;
+								
+							}
+
+
+
+/*foot*/
+.foot
+{
+	position: absolute;
+	background-color: black;
+	width: 95%;
+	top: 367%;
+	height: auto;
+	color: white;
+	font-size: 15px;
+	padding-left: 1px;
+	padding-top: 15px;
+}
+
+
+#disegn1
+{
+ width: 200px;
+ height: 200px;
+}
+
+}
+
+
+
+
+/*mediam screen*/
+
+@media screen and (max-width: 736px)
+{
+
+
+
+
+		.navbar
+{
+	position: relative;
+	background-color: lightblue;
+	width: 100%;
+	height: auto;
+	top: 1px;
+	z-index: 3;
+}
+.name
+{
+	position: absolute;
+	background-color: lightblue;
+	color: green;
+	font-family: verdana;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: -70px;
+   
+}
+.img
+{
+	margin-top: 7px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	opacity: 5;
+    filter: alpha(opacity=100);
+    margin-left: 5%;
+
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+    background-color: lightblue;
+    margin-left: 1px;
+    margin-top: 1px;
+ font-size: 20px;
+}
+li
+{
+	float: none;
+	display: block;
+}
+li a
+{
+	display: block;
+    color: #0000FF;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
+li a:hover{
+	background-color: #4CAF50;
+
+border-radius: 50px 50px 50px 50px;
+color: white;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+
+    border-radius: 50px 50px 50px 50px;
+}
+.search
+{
+	border-radius: 50px 50px 50px 50px;
+	margin-left: 50px; 
+	position: absolute;
+	margin-top: -60px;
+	font-size: 20px;
+	height: auto;
+	width: 70%;
+}
+#home
+{
+	position: absolute;
+	background-color: lightblue;
+	height: auto;
+	width: 100%;
+	margin-top: -20px;
+	border-radius: 0px 0px 0px 0px;
+}
+#banaphoto
+{
+	border-radius: 50%; width: 80%; height: 80%; margin-left: 10%; margin-top: 10%;
+}
+.text1
+{
+	position: absolute;
+	left:1px;
+	width: 100%;
+	height: auto;
+	top: 99%;
+	font-size: 20px;
+	color: white;
+	background-color: lightblue;
+
+}
+#input
+{
+	width: 200px; 
+	height: 30px; 
+	position: absolute;
+}
+/*close menu*/
+#butto
+{
+	position: absolute; 
+	width: 128px; 
+	height: 37px; 
+	margin-left: 210px; 
+	background-color: rgb(255,0,0); opacity: 0.6;
+	border: 0px;
+}
+#design1
+{
+	
+border-radius: 80px 80px 80px 80px;
+margin-left: 10%;
+width: 50px;
+height: 50px;
+}
+
+/*my services*/
+.Services
+{
+	position: absolute;
+	width: 90%;
+	top: 185%;
+	margin-left: 5%;
+	height: 70%;
+}
+b
+{
+	margin-left: 50px;
+	color: green;
+	font-family: Bernard MT Condensed;
+}
+
+	#services1
+	{
+		
+		width: 50%;
+		height: 40%;
+		margin-left: 0px;
+		color:black;
+		margin-top: 7px;
+		font-size: 15px;
+	}
+
+		#services2
+		{
+			
+			width: 45%;
+		height: 40%;
+		margin-left: 50%;
+		color: rgb(green blue black);
+		margin-top: -183px;
+		font-size: 15px;
+		}
+
+			#services3
+			{
+				
+				width: 30%;
+		height: 40%;
+		margin-left: 1px;
+		color: rgb(green blue black);
+		margin-top: 25px;
+			}
+
+
+							#services4
+								{
+									position: absolute;
+									width: 30%;
+									height: 40%;
+									left: 50%;
+									color:black;
+									top: 110%;
+								}
+
+									#services5
+									{
+										position: absolute;
+										width: 30%;
+									height: 40%;
+									left: 20%;
+									color: rgb(green blue black);
+									top: 85%;
+									}
+
+										#services6
+										{
+											
+											position: absolute;
+										width: 30%;
+									height: 40%;
+									margin-left: 1px;
+									color: rgb(green blue black);
+									top: 150%;
+									line-height: 1;
+										}
+
+/*about me*/
+	#aboutme
+	{
+		position: absolute;
+		background-color: lightblue;
+		
+		top: 300%;
+		width: 100%;
+		height: 70%;
+		margin-left: 1px;
+	}
+
+			.about1
+			{
+				background-color: white;
+				border: 2px;
+				width: 60%;
+				height: 70%;
+				margin-top: 5%;
+				font-size: 15px;
+				margin-left: 17%;
+				box-shadow: 2px 2px 2px 2px gray;
+				padding: 5px 20px 0px 20px;
+
+			}
+			.about1 h3
+			{
+				text-align: center;
+			}
+
+					/*contact me*/
+					#contactme
+					{
+						position: absolute;
+						top: 370%;
+						width: 60%;
+						height: 50%;
+						
+						margin-left: 20%;
+					}
+					#inputname
+					{
+						width: 70%;
+						height: 13%;
+						margin-left: -30%;
+						border: 2;
+						font-size: 1px;
+						margin-top: 50px;
+						border-radius: 10px 10px 10px 10px;
+						font-size: 20px;
+					}
+					#inputemail
+					{
+						position: absolute;
+						width: 70%;
+						height: 13%;
+						margin-left: 20px;
+						border: 2;
+						font-size: 1px;
+						margin-top: 51px;
+						font-size: 20px;
+					border-radius: 10px 10px 10px 10px;
+					}
+							#message
+								{
+									position: absolute;
+									width: 100%;
+									height: 40%;
+									margin-left: -55%;
+									border: 2;
+									font-size: 20px;
+									margin-top: 10px;
+								border-radius: 10px 10px 10px 10px;
+
+								}
+
+
+
+					#name1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: -70px;
+					}
+
+					#email1
+					{
+						position: absolute;
+						top: 1%;
+						margin-left: 50%;
+					}
+
+							#message1
+							{
+								margin-top: 50px;
+								margin-left: 6%;
+							}
+							#submit
+							{
+								margin-top: 18%;
+								margin-left: 40%;
+								background-color: lightblue;
+								width: 20%;
+								height: 10%;
+								border: none;
+								
+							}
+
+							#facebook
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 1px;
+								margin-top: -15px;
+								
+							}
+
+									#instergram
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 30px;
+								margin-top: -15px;
+								
+							}
+
+								#whatsapp
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 50px;
+								margin-top: -15px;
+								
+							}
+
+
+								#youtube
+							{
+								position: absolute;
+								border-radius: 50%;
+								margin-left: 70px;
+								margin-top: -25px;
+								
+							}
+
+
+
+
+.foot
+{
+	position: absolute;
+	background-color: black;
+	width: 95%;
+	top: 420%;
+	height: auto;
+	color: white;
+	font-size: 15px;
+	padding-left: 1px;
+	padding-top: 15px;
+}
+
+
+#disegn1
+{
+ width: 200px;
+ height: 200px;
+}
+
+}
+
+/*login page css*/
+#wellpapelogin
+{
+	width: 25%;
+	height: 90%;
+	background-color: white;
+	position: absolute;
+	box-shadow: 4px 4px 4px 4px;
+	margin-left: 35%;
+	top: 5%;
+	border-radius: 20px 20px 20px 20px;
+}
+.loginphoto
+{
+	width: 35%;
+	height: 20%;
+	margin-left: 30%;
+	margin-top: 1px;
+	border-radius: 50%;
+}
+h1 
+{
+	margin-left: 30%;
+	color: green;
+}
+h4
+{
+
+	padding-left: 100px;
+
+}
+#username
+{
+	padding-left: 10px;
+	margin-left: 13%;
+	width: 70%;
+	height: auto;
+    font-size: 20px;
+}
+
+#login
+{
+	margin-left: 20%;
+	background-color: lightblue;
+	margin-top: 20px;
+	height: 50px;
+	width: 190px;
+}
+#forgot
+{
+font-size: 20px;
+color: green;
+margin-left: 100px;
+margin-top: 10px;
+
+}
+.signup
+{
+	margin-left: 1px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+/*signup*/
+#wellpapesignup
+{
+	width: 25%;
+	height: 90%;
+	background-color: lightblue;
+	position: absolute;
+	box-shadow: 1px 1px 1px 1px;
+	margin-left: 35%;
+	top: 5%;
+	border-radius: 20px 20px 20px 20px;
+
+}
+#fistname
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+#lastname
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#phonenumber
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+#Email
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#password
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+#confirmpassword
+{
+	margin-top: 10px;
+	height: auto;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+#signup
+{
+	margin-left: 20%;
+	background-color: green;
+	margin-top: 20px;
+	height: 50px;
+	width: 190px;
 }
